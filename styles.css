@@ -7,7 +7,6 @@
   --level-5: rgb(179, 179, 179);
   --white-color: rgb(255, 255, 255);
   --philomene-font: 'Chau Philomene One', sans-serif;
-
 }
 
 * {
@@ -40,7 +39,6 @@ nav {
   justify-content: space-between;
   height: 100%;
   font-family: var(--philomene-font);
-  
 }
 
 nav a {
@@ -54,7 +52,6 @@ nav ul {
   height: 100%;
   justify-content: space-between;
   align-items: center;
-
 }
 
 nav li {
@@ -76,10 +73,10 @@ nav button {
   border-radius: 0.8rem;
   font-family: var(--philomene-font);
   font-size: 1.3rem;
-  color:var(--white-color);
+  color: var(--white-color);
   background-color: var(--level-0);
   border: none;
-} 
+}
 
 .nav-button-icon {
   width: 1.3rem;
