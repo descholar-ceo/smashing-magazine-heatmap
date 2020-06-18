@@ -39,6 +39,7 @@ nav {
   justify-content: space-between;
   height: 100%;
   font-family: var(--philomene-font);
+  align-items: center;
 }
 
 nav a {
@@ -87,8 +88,73 @@ nav div {
   height: 2rem;
   background-color: var(--white-color);
   border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  margin-right: 6rem;
+  padding-left: 1rem;
+  padding-right: 12rem;
+  padding-bottom: 1.6rem ;
+  padding-top: 1.6rem;
 }
 
 nav div input {
   border: none;
+  outline: none;
+  margin-left: 0.3rem;
+  width: 90%;
+}
+
+nav span {
+  display: flex;
+  align-items: center;
+}
+
+.title-div{
+    position: absolute;
+    top: 10rem;
+    left: 40rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.dont-miss-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 12rem;
+    width: 12rem;
+    text-align: center;
+}
+/* 
+.dont-miss-div p{
+
+} */
+
+.title-btns-container{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.rounded-title-btn{
+    background-color: var(--level-5);
+    padding: 1rem;
+    border-radius: 100px;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.bring-red-btn{
+    border: 3px solid var(--level-5);
+    padding: 0.3rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    background-color: var(--level-5);
+    font-size: 1.2rem;
+    font-family: var(--philomene-font);
+    outline: none;
+    margin-left: 1.2rem;
 }
