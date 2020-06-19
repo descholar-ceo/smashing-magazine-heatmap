@@ -574,13 +574,6 @@ nav span {
   border-radius: 1rem;
 }
 
-.design-system-feat {
-  background-color: var(--level-5);
-  height: 100%;
-  width: 40%;
-  margin-top: 1rem;
-}
-
 .tech-title {
   background-color: var(--level-3);
   height: 100%;
