@@ -19,6 +19,7 @@
 body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 li {
@@ -438,7 +439,7 @@ nav span {
   grid-template: repeat(3, 1fr) / repeat(2, 1fr);
   column-gap: 0.6rem;
   row-gap: 0.6rem;
-  width: 100%;
+  width: 95%;
   height: 60rem;
   margin: 2rem;
 }
@@ -483,4 +484,174 @@ nav span {
   height: 80%;
   margin-top: 0.8rem;
   background-color: var(--level-4);
+}
+
+.more-links {
+  width: 30%;
+  height: 3rem;
+  margin: 1rem auto;
+  background-color: var(--level-5);
+}
+
+.design-system-container {
+  width: 100%;
+  height: 30rem;
+  margin-top: 2rem;
+  display: grid;
+  grid-template: 1fr / 3fr 1fr;
+  background-color: var(--level-2);
+  column-gap: 0.6rem;
+  padding-bottom: 2rem;
+}
+
+.design-system-text-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: 0.5fr 1fr 2fr 0.5fr / 1fr;
+  row-gap: 0.6rem;
+}
+
+.design-system-feat {
+  width: 40%;
+  height: 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: var(--level-4);
+}
+
+.design-system-title {
+  width: 50%;
+  height: 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: var(--level-1);
+}
+
+.design-system-body {
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: var(--level-4);
+}
+
+.design-system-btn {
+  width: 50%;
+  height: 90%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: var(--level-1);
+  border-radius: 1rem;
+}
+
+.design-system-book {
+  width: 70%;
+  margin-top: -4rem;
+  margin-left: 2rem;
+  background-color: var(--level-1);
+  height: 100%;
+  transform: rotate(-10deg);
+}
+
+.tech-container {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  column-gap: 0.6rem;
+  row-gap: 0.6rem;
+  margin-top: 2rem;
+  height: 60rem;
+}
+
+.tech-content {
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  display: grid;
+  grid-template: 0.5fr 1fr 2fr 0.5fr / 1fr;
+  row-gap: 0.6rem;
+  background-color: var(--level-6);
+  border-radius: 1rem;
+}
+
+.design-system-feat {
+  background-color: var(--level-5);
+  height: 100%;
+  width: 40%;
+  margin-top: 1rem;
+}
+
+.tech-title {
+  background-color: var(--level-3);
+  height: 100%;
+  width: 80%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.tech-body {
+  width: 90%;
+  height: 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: var(--level-4);
+}
+
+.tech-btn {
+  background-color: var(--level-3);
+  height: 100%;
+  width: 40%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.tech-content-last {
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  display: grid;
+  grid-template: 0.5fr 1fr 2fr 0.5fr / 1fr;
+  row-gap: 0.6rem;
+  background-color: var(--level-1);
+  border-radius: 1rem;
+}
+
+.tech-body-last {
+  width: 90%;
+  height: 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: var(--level-3);
+}
+
+footer {
+  display: grid;
+  grid-template: 1fr 4fr 2fr / 1fr;
+  row-gap: 1rem;
+  width: 100%;
+  height: 20rem;
+  padding: 2rem;
+  background-color: var(--level-2);
+  margin-bottom: 0;
+}
+
+.footer-head {
+  background-color: var(--level-4);
+  margin: 2rem auto;
+  width: 40%;
+  height: 90%;
+}
+
+.footer-body {
+  background-color: var(--level-4);
+  margin: 2rem auto;
+  width: 80%;
+  height: 90%;
+}
+
+.footer-foot {
+  background-color: var(--level-4);
+  margin: 2rem auto;
+  width: 60%;
+  height: 90%;
 }
