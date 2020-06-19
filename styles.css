@@ -126,6 +126,8 @@ nav span {
   width: 20rem;
   text-align: center;
   font-size: 2rem;
+  font-family: var(--philomene-font);
+  color: var(--white-color);
   background-color: var(--level-1);
 }
 
