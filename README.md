@@ -13,7 +13,7 @@ This project was created  for educational purpose for practicing the organizatio
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/descholar-ceo/smashing-magazine-heatmap/add-heatmap-page/index.html)
+[Live Demo Link](https://competent-ride-d3d6c8.netlify.app/)
 
 ## Getting Started
 
