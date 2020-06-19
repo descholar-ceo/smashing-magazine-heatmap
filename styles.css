@@ -94,7 +94,7 @@ nav div {
   margin-right: 6rem;
   padding-left: 1rem;
   padding-right: 12rem;
-  padding-bottom: 1.6rem ;
+  padding-bottom: 1.6rem;
   padding-top: 1.6rem;
 }
 
@@ -110,51 +110,51 @@ nav span {
   align-items: center;
 }
 
-.title-div{
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+.title-div {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.dont-miss-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-right: 12rem;
-    width: 20rem;
-    text-align: center;
-    font-size: 2rem;
-    background-color: var(--level-1);
+.dont-miss-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 12rem;
+  width: 20rem;
+  text-align: center;
+  font-size: 2rem;
+  background-color: var(--level-1);
 }
 
 .title-btns-container {
-    display: flex;
-    align-items: center;
-    margin-left: 5rem;
-    margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 2rem;
 }
 
 .rounded-title-btn {
-    background-color: var(--level-5);
-    padding: 1rem;
-    border-radius: 100px;
-    width: 0.5rem;
-    height: 0.5rem;
-    border: none;
-    outline: none;
+  background-color: var(--level-5);
+  padding: 1rem;
+  border-radius: 100px;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: none;
+  outline: none;
 }
 
 .bring-red-btn {
-    border: 3px solid var(--level-5);
-    padding: 0.3rem;
-    width: 10rem;
-    border-radius: 0.5rem;
-    background-color: var(--level-5);
-    font-size: 1.2rem;
-    font-family: var(--philomene-font);
-    outline: none;
-    margin-left: 1.2rem;
+  border: 3px solid var(--level-5);
+  padding: 0.3rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+  background-color: var(--level-5);
+  font-size: 1.2rem;
+  font-family: var(--philomene-font);
+  outline: none;
+  margin-left: 1.2rem;
 }
 
 .article-headers {
@@ -170,16 +170,16 @@ nav span {
 }
 
 .main-article-1 {
-   width: 100%;
-   height: 100%;
-   background-color: var(--level-5);
-   padding-top: 7rem;
-   padding-bottom: 7rem;
-   padding-left: 1rem;
-   padding-right: 1rem;
+  width: 100%;
+  height: 100%;
+  background-color: var(--level-5);
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.article-title{
+.article-title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -187,7 +187,7 @@ nav span {
   width: 100%;
 }
 
-.pic-container{
+.pic-container {
   width: 5rem;
   height: 5rem;
   background-color: var(--level-4);
@@ -195,34 +195,34 @@ nav span {
   transform: rotate(-10deg);
 }
 
-.pic-name{
-   width: 30rem;
-   height: 5rem;
-   background-color: var(--level-3);
+.pic-name {
+  width: 30rem;
+  height: 5rem;
+  background-color: var(--level-3);
 }
 
-.article-header{
+.article-header {
   background-color: var(--level-2);
   width: 100%;
   height: 10rem;
   margin-top: 2rem;
 }
 
-.article-comment{
+.article-comment {
   width: 40%;
   height: 3rem;
   background-color: var(--level-3);
   margin-top: 2rem;
 }
 
-.hashtags{
+.hashtags {
   width: 60%;
   height: 2rem;
   background-color: var(--level-4);
   margin-top: 2rem;
 }
 
-.article-preview-1{
+.article-preview-1 {
   width: 95%;
   margin-top: 12rem;
   margin-left: 2rem;
@@ -233,25 +233,25 @@ nav span {
   height: 20rem;
 }
 
-.article-prev-1-container{
+.article-prev-1-container {
   background-color: var(--level-6);
 }
 
-.article-prev-head-1{
+.article-prev-head-1 {
   width: 85%;
   height: 2rem;
   margin: 2rem;
   background-color: var(--level-3);
 }
 
-.article-prv-author{
+.article-prv-author {
   width: 60%;
   background-color: var(--level-4);
   height: 1rem;
   margin: 2rem;
 }
 
-.article-prev-body{
+.article-prev-body {
   width: 85%;
   background-color: var(--level-5);
   height: 10rem;
@@ -283,15 +283,16 @@ nav span {
   background-color: var(--level-0);
   width: 70%;
 }
+
 .membership-body {
   margin-top: 2rem;
   background-color: var(--level-2);
   height: 5rem;
   width: 80%;
-  height: 5rem;
   margin-left: auto;
   margin-right: auto;
 }
+
 .membership-btn {
   margin-top: 2rem;
   background-color: var(--level-0);
@@ -300,7 +301,8 @@ nav span {
   margin-left: auto;
   margin-right: auto;
 }
-.membership-footer{
+
+.membership-footer {
   margin-top: 1rem;
   background-color: var(--level-2);
   height: 2rem;
@@ -309,7 +311,7 @@ nav span {
   margin-right: auto;
 }
 
-.article-preview-2{
+.article-preview-2 {
   width: 95%;
   margin-top: 2rem;
   margin-left: 2rem;
@@ -320,7 +322,7 @@ nav span {
   height: 20rem;
 }
 
-.article-preview-3{
+.article-preview-3 {
   display: grid;
   grid-template: 1fr / 1fr 2fr;
   width: 95%;
@@ -331,12 +333,12 @@ nav span {
   height: 40rem;
 }
 
-.article-prev-3-container{
+.article-prev-3-container {
   background-color: var(--level-6);
   height: 90%;
 }
 
-.membership-3-container{
+.membership-3-container {
   background-color: var(--level-1);
   width: 100%;
   height: 35rem;
@@ -348,7 +350,7 @@ nav span {
   justify-content: center;
 }
 
-.meet-cick-container{
+.meet-cick-container {
   width: 100%;
   height: 55rem;
   background-color: var(--level-3);
@@ -356,28 +358,28 @@ nav span {
   grid-template: repeat(4, 1fr) 2fr / 1fr;
 }
 
-.meet-click-date{
+.meet-click-date {
   background-color: var(--level-4);
   height: 2rem;
   margin: 2rem auto 1rem auto;
   width: 40%;
 }
 
-.meet-click-head{
+.meet-click-head {
   background-color: var(--level-2);
   height: 4rem;
   margin: 1rem auto 1rem auto;
   width: 60%;
 }
 
-.meet-click-body{
+.meet-click-body {
   background-color: var(--level-4);
   height: 6rem;
   margin: 1rem auto 1rem auto;
   width: 80%;
 }
 
-.meet-click-btn{
+.meet-click-btn {
   background-color: var(--level-4);
   height: 3rem;
   margin: 1rem auto 1rem auto;
@@ -385,7 +387,7 @@ nav span {
   border-radius: 0.5rem;
 }
 
-.meet-click-book{
+.meet-click-book {
   width: 15%;
   height: 90%;
   margin: 0 auto;
@@ -393,7 +395,7 @@ nav span {
   transform: rotate(5deg);
 }
 
-.person-week-container{
+.person-week-container {
   background-color: var(--level-6);
   width: 100%;
   height: 20rem;
@@ -404,7 +406,7 @@ nav span {
   padding: 1rem;
 }
 
-.person-week-pic{
+.person-week-pic {
   background-color: var(--level-3);
   transform: rotate(-10deg);
   width: 90%;
@@ -413,25 +415,25 @@ nav span {
   border-radius: 1rem;
 }
 
-.person-week-text-container{
+.person-week-text-container {
   display: grid;
   grid-template: 1fr 3fr / 1fr;
   row-gap: 0.6rem;
 }
 
-.person-week-title{
+.person-week-title {
   background-color: var(--level-4);
   width: 60%;
   height: 80%;
 }
 
-.person-week-body{
+.person-week-body {
   width: 100%;
   background-color: var(--level-4);
   height: 80%;
 }
 
-.article-listing-container{
+.article-listing-container {
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(2, 1fr);
   column-gap: 0.6rem;
@@ -441,14 +443,14 @@ nav span {
   margin: 2rem;
 }
 
-.article-listing-content{
+.article-listing-content {
   display: grid;
   grid-template: 1fr / 1fr 3fr;
   background-color: var(--level-5);
   width: 100%;
 }
 
-.article-listing-pic{
+.article-listing-pic {
   background-color: var(--level-4);
   width: 60%;
   height: 40%;
@@ -457,26 +459,26 @@ nav span {
   border-radius: 1rem;
 }
 
-.article-listing-text{
+.article-listing-text {
   display: grid;
   grid-template: repeat(2, 1fr) 3fr / 1fr;
 }
 
-.article-listing-author{
+.article-listing-author {
   width: 60%;
   height: 100%;
   margin-top: 0.2rem;
   background-color: var(--level-4);
 }
 
-.article-listing-title{
+.article-listing-title {
   width: 90%;
   height: 100%;
   margin-top: 0.5rem;
   background-color: var(--level-3);
 }
 
-.article-listing-body{
+.article-listing-body {
   width: 90%;
   height: 80%;
   margin-top: 0.8rem;
